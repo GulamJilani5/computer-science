@@ -45,3 +45,13 @@ Threads in the same process share the process’s memory space but can run indep
     - **Thread 2:** Render tab 2 - **Thread 3:** Handle downloads
 
 All these threads share Chrome’s allocated RAM but run independently.
+
+## ➡️ Mutex and Semphore
+
+### 🟦 Mutex
+
+Allows only 1 thread to access the shared resources at a time.
+
+### 🟦 Semaphore
+
+Limits the number of threads accessing a shared resources at a time.
